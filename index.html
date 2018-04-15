@@ -330,10 +330,11 @@
                         <div class="columns">
                             <div class="column"></div>
                             <div class="column is-two-quarters">
+                                <form action="https://formspree.io/azlaanzubair4@gmail.com" method="POST">
                                     <div class="field">
                                         <label class="label">What's Your Name?</label>
                                         <div class="control has-icons-left has-icons-right">
-                                            <input class="input is-primary" type="text" placeholder="Your Good Name" value="">
+                                            <input type="text" name="name" class="input is-primary" placeholder="Your Good Name" >
                                             <span class="icon is-small is-left">
                                                 <i class="fas fa-user"></i>
                                             </span>
@@ -347,7 +348,7 @@
                                     <div class="field">
                                         <label class="label">Email</label>
                                         <div class="control has-icons-left has-icons-right">
-                                            <input class="input is-primary" type="email" placeholder="abc@example.com" value="">
+                                            <input type="email" name="_replyto" class="input is-primary" placeholder="abc@example.com" >
                                             <span class="icon is-small is-left">
                                                 <i class="fas fa-envelope"></i>
                                             </span>
@@ -359,33 +360,21 @@
                                     </div>
                                     
                                     <div class="field">
-                                        <label class="label">Subject</label>
-                                        <div class="control">
-                                            <div class="select">
-                                                <select name="subject" class="is-primary is-fullwidth">
-                                                    <option>Select dropdown</option>
-                                                    <option value="0">General Discussion</option>
-                                                    <option value="1">Information About Tournaments</option>
-                                                </select>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    
-                                    <div class="field">
                                         <label class="label">Message</label>
                                         <div class="control">
-                                            <textarea class="textarea is-primary" placeholder="Say Something..."></textarea>
+                                            <textarea name="message" class="textarea is-primary" placeholder="Say Something..."></textarea>
                                         </div>
                                     </div>
                                     
                                     <div class="field is-grouped">
                                         <div class="control">
-                                            <button type="submit" class="button is-primary is-outlined is-fullwidth">Submit</button>
+                                            <input class="button is-primary is-outlined is-fullwidth" type="submit" value="Send">
                                         </div>
                                         <div class="control">
                                             <button type="reset" class="button is-danger is-fullwidth">Cancel</button>
                                         </div>
                                     </div>
+                                </form>
                             </div>
                             <div class="column"></div>
                         </div>
