@@ -224,7 +224,7 @@ a {
   
 /* navbar styling */
 
-  nav {
+  nav, #navbarExampleTransparentExample {
     padding-left: 2%;
     background-color: #00000085 !important;
   }
