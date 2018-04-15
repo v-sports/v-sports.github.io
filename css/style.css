@@ -224,9 +224,13 @@ a {
   
 /* navbar styling */
 
-  nav, #navbarExampleTransparentExample {
+  nav {
     padding-left: 2%;
-    background-color: #00000085 !important;
+    background-color: #000000 !important;
+  }
+
+  #navbarExampleTransparentExample {
+    background-color: #00000097;
   }
 
   #BRAND {
@@ -239,7 +243,6 @@ a {
     border-bottom: 1px solid #f5f5f596;
     margin-top: 10px;
     margin-bottom: 15px;
-    text-align: center !important;
   }
 
   nav a.topNav:hover {
@@ -252,7 +255,7 @@ a {
     margin-left: 3%;
   }
 
-  .is-active {
+  .active {
     border-bottom: 2px solid #ffbb00 !important;
     color: #ffbb00 !important;
     font-weight: bold;

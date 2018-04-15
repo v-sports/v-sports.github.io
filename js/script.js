@@ -94,8 +94,8 @@ $(document).ready(function() {
     }
     if (scroll_id !== id) {
       id = scroll_id;
-      $menu_a.removeClass("is-active");
-      $("a[href='#" + id + "']", $menu).addClass("is-active");
+      $menu_a.removeClass("active");
+      $("a[href='#" + id + "']", $menu).addClass("active");
     }
   });
 });
