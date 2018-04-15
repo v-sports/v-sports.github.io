@@ -242,6 +242,7 @@ a {
   }
 
   nav a.topNav {
+    display: inline;
     color: #d1d1d1;
     background-color: #00000000 !important;
     border-bottom: 1px solid #d1d1d1;
