@@ -222,39 +222,30 @@ a {
     background-position: center center;
   }
   
-  /* navbar styling */
+/* navbar styling */
 
   nav {
-    padding: 0px 5px;
-    background-color: #30303096 !important;
+    padding-left: 2%;
+    background-color: #00000085 !important;
   }
 
-  nav a h1 {
-    color: #f5f5f5 !important;
-  }
-
-  .navbar-brand {
-    margin-right: 7%;
-  }
- 
-  .navbar-start {
-    width: 100%;
+  #BRAND {
+    color: #f5f5f5;
   }
 
   nav a.topNav {
-    display: inline;
-    color: #d1d1d1;
+    color: #f5f5f596;
     background-color: #00000000 !important;
-    border-bottom: 1px solid #d1d1d1;
-    margin: 5px 0;
-    width: 15%;
+    border-bottom: 1px solid #f5f5f596;
+    margin-top: 10px;
     margin-bottom: 15px;
     text-align: center !important;
   }
 
   nav a.topNav:hover {
-    color: #f5f5f5;
-    border-bottom: 1px solid #f5f5f5;
+    color: #d1d1d1;
+    border-bottom: 1px solid #d1d1d1;
+    font-weight: 600;
   }
 
   nav .navbar-start {
@@ -269,7 +260,7 @@ a {
 
   a#v-brand {
     border-bottom: none !important; 
-  }
+  } 
 
   /* stylesheet for contact form */
   
